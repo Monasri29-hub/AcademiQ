@@ -247,6 +247,34 @@ academiq/
 
 ---
 
+
+***
+
+## 🚀 How to Run AcademiQ
+
+To try AcademiQ on your own laptop, you only need Python and a few commands. First, download or clone this repository to your machine. Then open a terminal in the project folder and create a small isolated Python environment so this project doesn’t interfere with your other work. On most systems you can do:
+
+```bash
+python -m venv venv
+```
+
+Activate this environment (`venv\Scripts\activate` on Windows, `source venv/bin/activate` on macOS/Linux), then install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Once the setup is done, start the app with:
+
+```bash
+streamlit run app.py
+```
+
+A browser window will open automatically. From there you can explore the student view, the mentor dashboard, and see how the Academic Load Index highlights overload before it turns into burnout.
+
+---
+
+
 ## 💾 Requirements
 
 ```
